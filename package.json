@@ -1,6 +1,6 @@
 {
   "name": "say-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modular library to compose meaningful predicates, comparators, mapper and reducers",
   "main": "dist/index.js",
   "repository": "git@github.com:vas-hub/say-it.git",

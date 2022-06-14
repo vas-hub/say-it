@@ -12,12 +12,18 @@
     "build": "yarn run clean && yarn run compile",
     "test": "yarn tap --node-arg=--require=ts-node/register",
     "prepublishOnly": "yarn test && yarn run build",
-    "ci": "yarn test && yarn run build"
+    "ci": "yarn test && yarn run build",
+    "lint": "yarn eslint 'src/**/*[!.d].ts"
   },
   "devDependencies": {
     "@types/node": "^17.0.42",
     "@types/sinon": "^10.0.11",
     "@types/tap": "^15.0.7",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "rimraf": "^3.0.2",
     "sinon": "^14.0.0",
     "tap": "^16.2.0",

@@ -4,12 +4,11 @@
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-        "module": "commonjs",
+    "module": "commonjs",
     "target": "es6",
     "declaration": true,
     "outDir": "./dist",
-    "rootDir": "./src",
-
+    "rootDir": "./src"
   },
   "include": ["src/**/*"]
 }

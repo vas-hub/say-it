@@ -1,3 +1,3 @@
 import tap from 'tap';
 
-tap.test('placeholder', async () => {});
+tap.test('placeholder', async () => ({}));

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { IMapperFn } from '../../concepts/mapper';
 
 export const toStruct =

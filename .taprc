@@ -1,0 +1,5 @@
+color: true
+coverage: true
+check-coverage: true
+files:
+  - ./**/*.spec.ts

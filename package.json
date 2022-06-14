@@ -11,7 +11,8 @@
     "compile": "tsc",
     "build": "yarn run clean && yarn run compile",
     "test": "yarn tap --node-arg=--require=ts-node/register",
-    "prepublishOnly": "yarn test && yarn run build"
+    "prepublishOnly": "yarn test && yarn run build",
+    "ci": "yarn test && yarn run build"
   },
   "devDependencies": {
     "@types/node": "^17.0.42",

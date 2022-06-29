@@ -17,7 +17,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "yarn eslint 'src/**/*[!.d].ts",
-    "test": "yarn tap --node-arg=--require=ts-node/register",
+    "_test": "yarn tap --node-arg=--require=ts-node/register",
     "typecheck": "tsc --noEmit",
     "build": "microbundle",
     "dev": "microbundle watch",

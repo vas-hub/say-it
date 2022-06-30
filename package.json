@@ -5,6 +5,10 @@
   "repository": "https://github.com/vas-hub/say-it.git",
   "author": "Davide Ganito <davide.ganito@vas.it>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "type": "module",
   "main": "dist/index.cjs",
   "source": "src/index.ts",
